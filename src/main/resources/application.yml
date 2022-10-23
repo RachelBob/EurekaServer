@@ -1,16 +1,11 @@
 spring:
   application:
-    name: eureka-server
+    name: eureka-server-ecommerce
     
 server:
   port: 8761
   
 eureka:
-  instance:
-    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
-  server:
-    waitTimeInMsWhenSyncEmpty: 0
-   
